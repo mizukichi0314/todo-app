@@ -4,7 +4,7 @@ import TodoList from "./components/TodoList";
 import { getAllTodos } from "@/api";
 
 export default async function Home() {
-  const todos = await getAllTodos ();
+  const todos = await getAllTodos();
 
   return (
     <main className = "flex flex-col justify-center items-center min-h-screen py-2 bg-gray-200">
